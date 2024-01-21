@@ -1,0 +1,27 @@
+*{
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root{
+  /* variables */
+  --border-radius: 10px;
+  --padding: 1rem;
+  --margin: 1rem;
+  --border-size: 1.5px;
+
+  /* color variables */
+  --text-color: #18181b;
+  --text-color-light: #52525b;
+  --border-color: #e4e4e7;
+  --primary-color: #4c6ef5;
+  --background-color: #fff;
+  --background-color-light: #f8f9fb;
+  --error-color: #fa5252;
+  --success-color : #4caf50;
+  --code-color: #fff;
+  --accent-color: #7f97f8;
+}

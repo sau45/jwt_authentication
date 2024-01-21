@@ -1,0 +1,61 @@
+.contact_us{
+    margin: var(--margin);
+    
+    border: var(--border-size) solid var(--border-color);
+    border-radius: var(--border-radius);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50rem;
+}
+
+.contact_us_left_section{
+    max-width: 20rem;
+    flex-grow: 1;
+    padding: var(--padding);
+}
+.contact_us_right_section{
+    padding: var(--padding);
+    min-width: 20rem;
+    flex-grow: 1;
+}
+
+.contact_us_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.contact-email,.contact-address{
+    margin: 1rem 0;
+    color: var(--text-color-light);
+}
+
+
+.contact_us a{
+    text-decoration: none;
+    color: var(--text-color-light);
+}
+
+.send_message_btn{
+    margin-top: 1rem;
+}
+
+
+@media (max-width: 1024px) {
+    .contact_us_left_section{
+        flex-grow: 1;
+    }
+    .contact_us_right_section{
+        flex-grow: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact_us_right_section{
+        min-width: auto;
+    }
+}
