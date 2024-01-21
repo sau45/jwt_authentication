@@ -1,6 +1,13 @@
 # Saurav's Cart - E-commerce Web App
 
-Saurav's Cart is an open-source E-commerce Web App that allows users to browse, search, and purchase products online.
+# Node.js Auth Service
+
+A token-based authentication service using JSON Web Tokens (JWT) for Node.js.
+
+## Introduction
+
+This Node.js Auth Service provides a secure token-based authentication mechanism using JWT. It is built with popular Node.js libraries such as Express, Mongoose, and JSONWebToken for seamless integration into your backend.
+
 
 ## Features
 
@@ -23,7 +30,7 @@ To get started with Saurav's Cart, follow these steps:
 1. Clone the repository:
 
    ```bash
-  https://github.com/sau45/authentication_nodejs_backend.git
+https://github.com/sau45/cart_with_Authentication.git
   
 
 ### Screenshots
@@ -35,6 +42,8 @@ To get started with Saurav's Cart, follow these steps:
 ![image](https://github.com/sau45/cart_frontend/assets/87286258/da10267e-0a89-451b-be72-658a4f487870)
 
 ![image](https://github.com/sau45/cart_frontend/assets/87286258/c3c1cc73-3c5b-49dc-b29b-8ace16ccc0d4)
+
+
 
 
 
